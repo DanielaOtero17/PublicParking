@@ -23,6 +23,8 @@ public class Parqueadero {
 		horaInicio   = (int)(7+Math.random()*5);
 		minutoInicio = (int)(Math.random()*60);
 
+		
+		
 	}
 	
 	public String darHoraInicio() {
@@ -30,7 +32,7 @@ public class Parqueadero {
 	}
 	
 	public void marcarHoraFinal() {
-		// To modify:
+		// To modify:-
 		horaInicio   = (int)(12+Math.random()*10);
 		minutoInicio = (int)(Math.random()*60);
 
